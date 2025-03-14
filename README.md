@@ -5,12 +5,12 @@ memory management.
 
 This project aims to be a collection of sorting alogorithms that can be used conveniently at will
 
-Update 1.0 : Added the initial program to github. Includes Bubble Sort for now 
+Update 1.0 : Added the initial program to github.
 -
 Inital program uploaded version, started with bubble sort since it seemed fairly easy to implement <br>
   To-Do : Want to try insertion sort next
 
-Update 1.1 : Added insertion sort
+Update 1.1 : Added Insertion Sort
 -
 Did not think it would take me so long to add. Got really confused by my own poor proggraming practices lol <br>
  To-Do : Want to Add Selection Sort
