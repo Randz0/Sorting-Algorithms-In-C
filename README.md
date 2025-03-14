@@ -14,3 +14,8 @@ Update 1.1 : Added Insertion Sort
 -
 Did not think it would take me so long to add. Got really confused by my own poor proggraming practices lol <br>
  To-Do : Want to Add Selection Sort
+
+Update 1.2 : Added Selection Sort
+-
+Really easy to implement, gonna try and add more before updating from here on out
+ To-Do : Want to add merge, cocktail shaker, and quick-sort
