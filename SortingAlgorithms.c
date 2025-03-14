@@ -114,11 +114,36 @@ int* InsertionSort(int* toSort, int length) {
     return returnedCopy;
 }
 
+// Sorts the given array using selection sort, sorting by minimums
+int* SelectionSort(int* toSort, int length) {
+    int* returnedCopy = CopyIntArray(toSort, length);
+
+    int foundMinimum; // Index of the minimum found value
+    int temp;
+
+    for (int i = 0; i < length; i++) { // i denotes which element is to be filled next
+        foundMinimum = i;
+
+        for (int j = i + 1; j < length; j++) { // Finding the min from the rest of the array
+            if (returnedCopy[foundMinimum] > returnedCopy[j]) {
+                foundMinimum = j;
+            }
+        }
+
+        temp = returnedCopy[i];
+
+        returnedCopy[i] = returnedCopy[foundMinimum];
+        returnedCopy[foundMinimum] = temp;
+    }
+
+    return returnedCopy;
+}
+
 int main() {
     int instance[7] = {10, 7, 6, 3, 5, 4, 22};
     int length = sizeof(instance) / sizeof(instance[0]);
 
-    int* sorted = InsertionSort(instance, length);
+    int* sorted = SelectionSort(instance, length);
 
     PrintIntArray(sorted, length);
 
