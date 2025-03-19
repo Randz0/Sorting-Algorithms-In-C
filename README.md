@@ -17,5 +17,5 @@ Did not think it would take me so long to add. Got really confused by my own poo
 
 Update 1.2 : Added Selection Sort
 -
-Really easy to implement, gonna try and add more before updating from here on out
+Really easy to implement, gonna try and add more before updating from here on out <br>
  To-Do : Want to add merge, cocktail shaker, and quick-sort
