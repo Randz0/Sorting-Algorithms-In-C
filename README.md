@@ -19,3 +19,9 @@ Update 1.2 : Added Selection Sort
 -
 Really easy to implement, gonna try and add more before updating from here on out <br>
  To-Do : Want to add merge, cocktail shaker, and quick-sort
+
+Update 1.3 : Added Mergesort, Cocktail Shaker Sort, and Quick Sort
+-
+Took me a while but I finally got around to this, at this point, most commonly used algorithms are used in here and I want to turn it into a header/lib file at some point <br>
+although that's still some ways off.
+ To-Do: Want to add Radix Sort, Gnome Sort, and Comb Sort
